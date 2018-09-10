@@ -1,18 +1,18 @@
 # Flix1
 # Project 1 - *Name of App Here*
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: 9 hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
 - [ X] User sees app icon in home screen and styled launch screen (+1pt)
-- [ ] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [ ] User can "Pull to refresh" the movie list (+2pt)
-- [ ] User sees a loading state while waiting for the movies to load (+2pt)
+- [ X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
+- [ X] User can "Pull to refresh" the movie list (+2pt)
+- [ X] User sees a loading state while waiting for the movies to load (+2pt)
 
 The following **stretch** user stories are implemented:
 
@@ -36,17 +36,17 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had a challenge with the size of the cells within the app. It was only showing the title and a cut off image of the movie. It was difficult trying to figure out how to fix this issue. I was finally able to find a code to use and was able to fix the height which in return allowed all of my data to be shown.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Brittany Dail]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
