@@ -34,9 +34,9 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of my application:
 
-
+https://github.com/brdai1/Flix1/blob/master/flix1.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
