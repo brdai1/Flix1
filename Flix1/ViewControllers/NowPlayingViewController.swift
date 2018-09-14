@@ -18,7 +18,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         
-        TableView.rowHeight = 250
+        TableView.rowHeight = 210
         
         super.viewDidLoad()
         
@@ -78,6 +78,15 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = TableView.indexPath(for: cell) {
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.movie = movie
+        }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
