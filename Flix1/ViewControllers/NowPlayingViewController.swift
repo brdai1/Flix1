@@ -18,8 +18,10 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         
-        TableView.rowHeight = 210
         
+        TableView.rowHeight = UITableViewAutomaticDimension
+        TableView.estimatedRowHeight = 50
+
         super.viewDidLoad()
         
         
